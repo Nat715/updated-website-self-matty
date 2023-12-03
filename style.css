@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+nav {
+    height: 85px;
+    background: #EE82EE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+}
+
+.logo {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+    padding: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.hero {
+    background: #E6E6FA;
+}
+
+.column-right {
+     background-image: url(clean\ white\ bed.jpeg);
+     height: 100vh;
+     background-size: cover;
+     padding-left: 100px;
+     padding-top: 500px;
+}
+
+.column-right h1 {
+    margin-bottom: 20px;
+    font-size: x-large;
+    line-height: 20px;
+    color: rgb(78, 2, 255);
+}
+
+.column-right p {
+    margin-bottom: 20px;
+    font-size: large;
+    line-height: 20px;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: rgb(238, 130, 238);
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px 45px;
+    border-radius: 50px;
+ }
+
+ button:hover {
+    background: white;
+    color:black;
+ }
